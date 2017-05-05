@@ -20,8 +20,8 @@ def get_nn_model(nn_model, embedding, output_length):
 
 def cnn(embedding_size, output_length):
     """ Create and return a keras model of a CNN """
-    NB_FILTER = 256
-    NGRAM_LENGTHS = [1, 2, 3, 4, 5]
+    NB_FILTER = 128
+    NGRAM_LENGTHS = [1, 2]
 
     conv_layers = []
     for ngram_length in NGRAM_LENGTHS:
