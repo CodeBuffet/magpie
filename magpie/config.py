@@ -1,5 +1,5 @@
 # word2vec & scaler
-EMBEDDING_SIZE = 100
+EMBEDDING_SIZE = 300
 
 # Models
 NN_ARCHITECTURE = 'cnn'
