@@ -104,7 +104,7 @@ def crnn(embedding_size, output_length):
 
 def rnn(embedding_size, output_length):
     """ Create and return a keras model of a RNN """
-    HIDDEN_LAYER_SIZE = 256
+    HIDDEN_LAYER_SIZE = 64
 
     model = Sequential()
 
